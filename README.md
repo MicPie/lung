@@ -6,5 +6,6 @@ The notebooks uses the [dataset](https://osf.io/28qbc/) from the publication "[D
 Notebooks:
 * [lung_inflammation_v2_from-folder.ipynb](): 
 
+
 Deprecated notebooks:
 * [lung_inflammation_v1_from-df.ipynb](): Uses deprecated version of the fastai library.
