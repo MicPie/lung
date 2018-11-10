@@ -5,7 +5,7 @@ The notebooks use the [dataset](https://osf.io/28qbc/) from the publication "[De
 **Overview:**
 
 | Dataset | Publication architecture | Publication benchmark | Experimental architecture | Experimental results |
-| --- | :---:| :---: | :---: | :---: |
+| :---: | :---:| :---: | :---: | :---: |
 | Inflammation | Inception V3 | 80.0% | ResNet34 | 83.3% |
 | Fibrosis | Inception V3 | 79.5% | ResNet34 | 80.3% |
 
