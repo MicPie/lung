@@ -3,10 +3,11 @@
 The notebooks use the [dataset](https://osf.io/28qbc/) from the publication "[Deep neural network based histological scoring of lung fibrosis and inflammation in the mouse model system](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0202708)" to train CNNs based on different ResNet architectures to characterize fibrotic and inflammatory lung diseases from sections of lung tissue.
 
 **Overview:**
-| Dataset         | Publication benchmark | Results |
+
+| Dataset | Publication benchmark | Results |
 | --- | ---| --- |
-| Inflammation    | 80.0%                 | 83.3%   |
-| Fibrosis        | 79.5%                 | 80.3%   |
+| Inflammation | 80.0% | 83.3% |
+| Fibrosis | 79.5% | 80.3% |
 
 **Notebooks:**
 * [lung_inflammation_v4_ResNet34.ipynb](https://github.com/MicPie/lung/blob/master/lung_inflammation_v4_ResNet34.ipynb) ([nbviewer](https://nbviewer.jupyter.org/github/MicPie/lung/blob/master/lung_inflammation_v4_ResNet34.ipynb)): Uses a ResNet34 architecture and improves the inflammatory accuracy benchmark from the publication by approx. 3%.
