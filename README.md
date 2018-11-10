@@ -12,8 +12,8 @@ The notebooks use the [dataset](https://osf.io/28qbc/) from the publication "[De
 **Notebooks:**
 * [lung_inflammation_v4_ResNet34.ipynb](https://nbviewer.jupyter.org/github/MicPie/lung/blob/master/lung_inflammation_v4_ResNet34.ipynb): Uses a ResNet34 architecture and improves the inflammatory accuracy benchmark from the publication by approx. 3% ([trained weights](https://github.com/MicPie/lung/blob/master/lung_inf_v4-ResNet34_stage-2_train-3_epoch-2_0-833333.pth), 42 MB).
 * [lung_fibrosis_v4_ResNet34.ipynb](https://nbviewer.jupyter.org/github/MicPie/lung/blob/master/lung_fibrosis_v4_ResNet34.ipynb): Uses a ResNet34 architecture and improves the fibrosis accuracy benchmark from the publication by approx. 0.8% ([trained weights](https://github.com/MicPie/lung/blob/master/lung_fib_v4-ResNet34_stage-2_train-3_epoch-2_0-803179.pth), 42 MB).
-* [lung_fibrosis_v5_ResNet34_Grad-CAM.ipynb](https://nbviewer.jupyter.org/github/MicPie/lung/blob/master/lung_fibrosis_v5_ResNet34_Grad-CAM.ipynb): Grad-CAM visualization of the classified images.
-<img src="https://github.com/MicPie/lung/blob/master/Grad-CAM.png" width="200">
+* [lung_fibrosis_v5_ResNet34_Grad-CAM.ipynb](https://nbviewer.jupyter.org/github/MicPie/lung/blob/master/lung_fibrosis_v5_ResNet34_Grad-CAM.ipynb): Grad-CAM visualization of classified images.
+<img src="https://github.com/MicPie/lung/blob/master/Grad-CAM.png" width=30%>
 
 **Deprecated notebooks**:
 * [lung_inflammation_v3_progressive-resizing-ResNet34.ipynb](https://nbviewer.jupyter.org/github/MicPie/lung/blob/master/lung_inflammation_v3_progressive-resizing-ResNet34.ipynb): Uses the trained weights from the [ResNet34 from below](https://github.com/MicPie/lung/blob/master/lung_inflammation_v2_from-folder-ResNet34.ipynb) and increases the image size to 512 ("progressive resizing"). This approach improved the inflammatory accuracy benchmark from the publication by approx. 2%.
