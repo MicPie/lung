@@ -4,7 +4,7 @@ The notebooks use the [dataset](https://osf.io/28qbc/) from the publication "[De
 
 **Overview:**
 | Dataset         | Publication benchmark | Results |
-| :-------------: |:-------------:        | :-----: |
+| --- | ---| --- |
 | Inflammation    | 80.0%                 | 83.3%   |
 | Fibrosis        | 79.5%                 | 80.3%   |
 
