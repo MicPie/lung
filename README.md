@@ -4,10 +4,10 @@ The notebooks use the [dataset](https://osf.io/28qbc/) from the publication "[De
 
 **Overview:**
 
-| Dataset | Publication benchmark | Results |
-| --- | ---| --- |
-| Inflammation | 80.0% | 83.3% |
-| Fibrosis | 79.5% | 80.3% |
+| Dataset | Publication architecture | Publication benchmark | Experimental architecture | Experimental results |
+| --- | ---| --- | --- | --- |
+| Inflammation | Inception V3 | 80.0% | ResNet34 | 83.3% |
+| Fibrosis | Inception V3 | 79.5% | ResNet34 | 80.3% |
 
 **Notebooks:**
 * [lung_inflammation_v4_ResNet34.ipynb](https://github.com/MicPie/lung/blob/master/lung_inflammation_v4_ResNet34.ipynb) ([nbviewer](https://nbviewer.jupyter.org/github/MicPie/lung/blob/master/lung_inflammation_v4_ResNet34.ipynb)): Uses a ResNet34 architecture and improves the inflammatory accuracy benchmark from the publication by approx. 3%.
